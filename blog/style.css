@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=Chilanka&display=swap');
+body {
+  font-family: 'Asset', cursive;
+  font-family: 'Chilanka', cursive;
+  display: flex;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.container{
+  margin-left: 4rem;
+  font-size: 1.2rem;
+}
+.article{
+  line-height: 0.9rem;
+  font-size: 1rem;
+}
+#title{
+  border-radius: 1rem;
+}
+#content{
+  border-radius: 1rem;
+  width: 400px;
+}
+#btn{
+  font-size: large;
+  margin-top: 1.5rem;
+  margin-bottom: 0.7rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border-color:black;
+  box-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+.container p{
+  font-size: 30px;
+}
+.space{
+  line-height: 0.9rem;
+  gap: 1rem;
+  align-items: center;
+}
+.aa{
+  margin-bottom: 6px;
+}

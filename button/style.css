@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  color:blue;
+  padding: 0;
+}
+.button{
+  color: rgb(241,241,249);
+  background-color: rgb(226,20,20);
+}

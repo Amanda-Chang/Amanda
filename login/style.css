@@ -1,0 +1,72 @@
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: rgb(226, 197, 154);
+}
+#main-holder{
+  width: 50%;
+  height: 70%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: blanchedalmond;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px rgb(251, 232, 204);
+}
+#login-error-msg-holder{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+#login-error-msg{
+  width: 23%;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(171, 219, 219);
+  border: 1px solid burlywood;
+  background-color: rgb(118, 167, 151);
+  opacity: 0;
+}
+#error-msg-second-line{
+  display: block;
+}
+#login-form{
+  align-self: flex-start;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.login-form-field::placeholder{
+  color: rgb(93, 102, 111);
+}
+.login-form-field{
+  border: none;
+  border-bottom: 1px solid bisque;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  outline: none;
+  padding: 0px 0px 5px 5px;
+}
+#login-form-submit{
+  width: 100px;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(224, 180, 115);
+  cursor: pointer;
+  outline: none;
+}
